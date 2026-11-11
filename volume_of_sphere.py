@@ -3,9 +3,9 @@ def calculate_volume_of_sphere(radius):
   volume = (4/3) * pi * (radius*radius*radius)
   return volume
 
-radius1 = 30
+radius1 = 20
 volume1 = calculate_volume_of_sphere(radius1)
-print("Volume of sphere with a radii of 30:", volume1)
+print("Volume of sphere with a radii of 20:", volume1)
 
 radius2 = 40
 volume2 = calculate_volume_of_sphere(radius2)
